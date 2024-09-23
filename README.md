@@ -7,9 +7,9 @@ This Java-based GUI application allows users to:
   calculating DOTS scores.
 
 ## Features
-**- Kg to Lb Converter:** Converts weight from kilograms to pounds.
-**- Lb to Kg Converter:** Converts weight from pounds to kilograms.
-**- DOTS Calculator:** Calculates a lifter’s DOTS score based on their body weight, total lifted, and gender (Male/Female).
+- **Kg to Lb Converter:** Converts weight from kilograms to pounds.
+- **Lb to Kg Converter:** Converts weight from pounds to kilograms.
+- **DOTS Calculator:** Calculates a lifter’s DOTS score based on their body weight, total lifted, and gender (Male/Female).
   
 ## Project Structure
 **Main Class:** kgToLbConverterDOTSCalculator.java - This contains the main GUI logic, which uses CardLayout to navigate between the different panels.
