@@ -17,11 +17,11 @@ This Java-based GUI application allows users to:
 **DOTS Calculation:** The dotsCalculator(double, double, String) method calculates the DOTS score based on body weight, total lifted, and gender.
 
 ## How to Run
-1. Clone the repository:
+1. **Clone the repository:**
 
 `git clone https://github.com/yourusername/kg-lb-dots-calculator.git`
 
-2. Compile and run the program:
+2. **Compile and run the program:**
 
 `javac kgToLbConverterDOTSCalculator.java`
 
