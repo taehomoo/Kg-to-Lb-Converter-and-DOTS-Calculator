@@ -19,7 +19,7 @@ This Java-based GUI application allows users to:
 ## How to Run
 **Clone the repository:**
 
-`git clone https://github.com/yourusername/kg-lb-dots-calculator.git`
+`git clone https://github.com/taehomoo/kg-lb-dots-calculator.git`
 
 **Compile and run the program:**
 
