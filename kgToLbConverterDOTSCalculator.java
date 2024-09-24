@@ -299,7 +299,6 @@ public class kgToLbConverterDOTSCalculator {
         double dWomen = 13.6175032;
         double eWomen = -57.96288;
 
-        //incorrect calculation for both male and female, need to fix
         if (gender.equalsIgnoreCase("Male")) {
             double tempDenominator = (aMen * Math.pow(bodyweight, 4)) + (bMen * Math.pow(bodyweight, 3)) + 
             (cMen * Math.pow(bodyweight, 2)) + (dMen * bodyweight) + eMen;
