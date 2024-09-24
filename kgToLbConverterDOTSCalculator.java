@@ -15,9 +15,6 @@ public class kgToLbConverterDOTSCalculator {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(700,500);
 
-        /*create main panel, which should allow me to flip between panels by 
-        utilizing the CardLayout*/
-
         JPanel mainPanel = new JPanel(new CardLayout());
 
         JPanel menuPanel = new JPanel();
@@ -31,9 +28,6 @@ public class kgToLbConverterDOTSCalculator {
         menuPanel.add(dotsButton);
 
         mainPanel.add(menuPanel, "Menu");
-
-        /*using functions to create the different panels, so that I can simply add them
-        to the main panel, and then add the main panel to the frame */
 
         JPanel kgToLbPanel = kgToLbPanelMaker(mainPanel);
         JPanel lbToKgPanel = lbToKgPanelMaker(mainPanel);
